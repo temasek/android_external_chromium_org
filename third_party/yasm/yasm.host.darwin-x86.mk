@@ -258,7 +258,7 @@ MY_CFLAGS_Debug := \
 	-ansi \
 	-pedantic \
 	-Wno-format \
-	-Os \
+	-w -O3 \
 	-g \
 	-fomit-frame-pointer \
 	-fdata-sections \
@@ -319,7 +319,7 @@ MY_CFLAGS_Release := \
 	-ansi \
 	-pedantic \
 	-Wno-format \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \

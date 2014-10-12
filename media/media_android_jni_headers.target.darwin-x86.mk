@@ -144,7 +144,7 @@ MY_CFLAGS_Debug := \
 	-Wno-ignored-qualifiers \
 	-Wno-type-limits \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-g \
 	-fomit-frame-pointer \
 	-fdata-sections \
@@ -226,7 +226,7 @@ MY_CFLAGS_Release := \
 	-Wno-ignored-qualifiers \
 	-Wno-type-limits \
 	-fno-stack-protector \
-	-Os \
+	-w -O3 \
 	-fno-ident \
 	-fdata-sections \
 	-ffunction-sections \
